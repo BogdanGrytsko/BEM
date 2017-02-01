@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BEM.BoundaryElements.BoundaryElement&lt;T&gt;" Collapsed="true">
+    <Position X="9.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAgAEEAAEAAAQAAAAIAAAAAAAAAAAIAgA=</HashCode>
+      <FileName>BoundaryElements\BoundaryElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.BoundaryElements.BoundaryElement2D" Collapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAEEAAAAAAQAAAAgAQAAAAAAAQAAAAA=</HashCode>
+      <FileName>BoundaryElements\BoundaryElement2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.BoundaryElements.BoundaryElement2DFirstOrder" Collapsed="true">
+    <Position X="7" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAAAAAQAAAAA=</HashCode>
+      <FileName>BoundaryElements\BoundaryElement2DFirstOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.BoundaryElements.BoundaryElement2DSecondOrder" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAgAQAAAAAAAQAAAAA=</HashCode>
+      <FileName>BoundaryElements\BoundaryElement2DSecondOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.BoundaryElements.NearBoundaryElement2DFirstOrder" Collapsed="true">
+    <Position X="11.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAEAAAAAAAQAAACgAQAAAAAAAQAAAAA=</HashCode>
+      <FileName>BoundaryElements\NearBoundaryElement2DFirstOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Bounds.Bound&lt;T&gt;" Collapsed="true">
+    <Position X="18.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAEAAAQQAQIAAAAAAAAAAABAAAQAAA=</HashCode>
+      <FileName>Bounds\Bound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Bounds.Parallelepiped" Collapsed="true">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ATAQBAAAAAAIAIAAACEAAAAAAgDFBgEAYIBjARAYAAo=</HashCode>
+      <FileName>Bounds\Parallelepiped.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Bounds.ParallelepipedNearBound" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAACAABACAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bounds\ParallelepipedNearBound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Bounds.Sphere" Collapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgCAAAAAAAAAAAAAAAEQoAAAACAAEAAggABAACQAQA=</HashCode>
+      <FileName>Bounds\Sphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.BoundWithCondition&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAIAAAAIAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>Common\BoundWithCondition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BEM.Common.InnerSourceWithFunction&lt;T&gt;" Collapsed="true">
+    <Position X="29.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Common\InnerSourceWithFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.IntegrationPoint&lt;T&gt;" Collapsed="true">
+    <Position X="31.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAgCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IntegrationPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.Matrix" Collapsed="true">
+    <Position X="27.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIEgBAAAAAAABAECAAAACQIAAAAAAAAkAgAAEAAAAA=</HashCode>
+      <FileName>Common\Matrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.Vector" Collapsed="true">
+    <Position X="27.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEaAEAAAQEAAAIQAAAEAAAAIAAAAA=</HashCode>
+      <FileName>Common\Vector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.Writer" Collapsed="true">
+    <Position X="29.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Writer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.GaussIntegrator.GaussPoint&lt;T&gt;" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\GaussIntegrator\GaussPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.GaussIntegrator.GaussPointsFactory" Collapsed="true">
+    <Position X="26" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAIAAAAAAAAMIAAAAAAAAAAAAABgAAAABAAAAAAAA=</HashCode>
+      <FileName>Common\GaussIntegrator\GaussPointsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.GaussIntegrator.Integrator&lt;T&gt;" Collapsed="true">
+    <Position X="24.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAIIAAAAAAAAAAAAAAAAAMAAAAAEAFgA=</HashCode>
+      <FileName>Common\GaussIntegrator\Integrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Common.Points.Point2D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEYAUBAAAAAIAAAAAAAAAAAIAAAgA=</HashCode>
+      <FileName>Common\Points\Point2D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BEM.Common.Points.Point3D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAABAAAAEYAEBAAAAAIAAAAAAQAAAAIAAAgA=</HashCode>
+      <FileName>Common\Points\Point3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BEM.Factory.ConditionSetter" Collapsed="true">
+    <Position X="27.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAgAAAEAAAAAAAAAAAACAAAAgAABBAAAAAAAA=</HashCode>
+      <FileName>Factory\ConditionSetter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Factory.FunctionFactory" Collapsed="true">
+    <Position X="29.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAAAAAAAAACAAAAgAAAAgAAQAAAAAEGAAgAAA=</HashCode>
+      <FileName>Factory\FunctionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Factory.FunctionsForSemiSpace" Collapsed="true">
+    <Position X="31.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAJAEAAAAAAAAEAAIAAAAAgQEACAAAACAMCAAAA=</HashCode>
+      <FileName>Factory\FunctionsForSemiSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Factory.InnerSourceFactory" Collapsed="true">
+    <Position X="27.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\InnerSourceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Factory.KirghoffTransformation" Collapsed="true">
+    <Position X="26" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAAgAAAAAAAAACAAAAiAAAAIEAgAAA=</HashCode>
+      <FileName>Factory\KirghoffTransformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Factory.MethodFactory" Collapsed="true">
+    <Position X="29.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAADAAAEAAAAAABgAAAAAEAAAAAAIAAQAAAAAAAAg=</HashCode>
+      <FileName>Factory\MethodFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Factory.SemiSpaceParameters" Collapsed="true">
+    <Position X="26" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>Factory\SemiSpaceParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.InnerSource.InnerSource&lt;T&gt;" Collapsed="true">
+    <Position X="20.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAQAAA=</HashCode>
+      <FileName>InnerSource\InnerSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.InnerSource.InnerSourceParallelepiped" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEADEAgAAAABiAQAAAAI=</HashCode>
+      <FileName>InnerSource\InnerSourceParallelepiped.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.InnerSource.InnerSourcePlate" Collapsed="true">
+    <Position X="19.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAEAEACFAgAAAYBCAQAAAAA=</HashCode>
+      <FileName>InnerSource\InnerSourcePlate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Methods.AbstractMethod&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABBAAAAAQAQAAAAACAAIABgACAAAABACEIAiAgA=</HashCode>
+      <FileName>Methods\AbstractMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Methods.CollocationKirghoffMethod&lt;T&gt;" Collapsed="true">
+    <Position X="14.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABIACAAA=</HashCode>
+      <FileName>Methods\CollocationKirghoffMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Methods.CollocationMethod&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Methods\CollocationMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Methods.CollocationMethodNearBoundary&lt;T&gt;" Collapsed="true">
+    <Position X="14.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Methods\CollocationMethodNearBoundary .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Methods.JakobiNewtonMethod&lt;T&gt;" Collapsed="true">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Methods\JakobiNewtonMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Methods.TwoSphereMethod" Collapsed="true">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAICCAAA=</HashCode>
+      <FileName>Methods\TwoSphereMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Papers.PaperCollocation" Collapsed="true">
+    <Position X="31.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Papers\PaperCollocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Papers.PaperNewtonMethod" Collapsed="true">
+    <Position X="24.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Papers\PaperNewtonMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Papers.PaperTwoSphere" Collapsed="true">
+    <Position X="26" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Papers\PaperTwoSphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Papers.PlotterOneSphere" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAEABAAAAA=</HashCode>
+      <FileName>Papers\PlotterOneSphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Plotter.AbstractPlotter&lt;T&gt;" Collapsed="true">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAgA=</HashCode>
+      <FileName>Plotter\AbstractPlotter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Plotter.CompositePlotter" Collapsed="true">
+    <Position X="26" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABQAAA=</HashCode>
+      <FileName>Plotter\CompositePlotter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Plotter.Plotter3D" Collapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plotter\Plotter3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Plotter.PlotterFactory" Collapsed="true">
+    <Position X="27.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plotter\PlotterFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Plotter.PlotterParallelepiped" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAIAAACAAgAAAAAAAABAAAAAAAEABAAAAE=</HashCode>
+      <FileName>Plotter\PlotterParallelepiped.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Plotter.PlotterTwoSphere" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAEAAAAAAEAAMABCAAAA=</HashCode>
+      <FileName>Plotter\PlotterTwoSphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BEM.Program" Collapsed="true">
+    <Position X="24.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

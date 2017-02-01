@@ -1,0 +1,32 @@
+﻿using BEM.Bounds;
+using BEM.Common.Points;
+using BEM.Enum;
+using BEM.Factory;
+using BEM.Plotter;
+
+namespace BEM.Papers
+{
+    public class PaperTwoSphere
+    {
+        public void DoWork()
+        {
+            
+            
+            
+        }
+
+        private string CalcOneMethod()
+        {
+            var bound12 = new Sphere(new Point3D(-3, 0, FunctionsForSemiSpace.H)) { Name = BoundNumber.Bound12 };
+            var bound2 = new Sphere(new Point3D(-3, 0, FunctionsForSemiSpace.H)) { Name = BoundNumber.Bound2 };
+            var bound13 = new Sphere(new Point3D(3, 0, FunctionsForSemiSpace.H)) { Name = BoundNumber.Bound13 };
+            var bound3 = new Sphere(new Point3D(3, 0, FunctionsForSemiSpace.H)) { Name = BoundNumber.Bound3 };
+            var boundWithCondition = ConditionSetter.SetBoundSphere(bound12, bound2, bound13, bound3);
+            var method = MethodFactory.GetSphereMethod(boundWithCondition, null);
+            method.Solve();
+            var plotter = PlotterFactory.GetPlotter(method.U);
+            plotter.Plot();
+            return plotter.FormatedFileName;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+BoundaryElementsMethod/bin/
+BoundaryElementsMethod/obj/
+*.testsettings
+BEMTest/obj/
+UpgradeLog3.XML
